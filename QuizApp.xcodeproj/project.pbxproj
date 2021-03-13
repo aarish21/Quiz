@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DF11AB825FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DF11AB725FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf */; };
+		5DF11AB925FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DF11AB725FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf */; };
+		5DF11ABA25FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DF11AB725FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf */; };
 		6F0B999025FD308F0073382F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B998F25FD308F0073382F /* Question.swift */; };
 		6F9097F425F2B328002CB080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9097F325F2B328002CB080 /* AppDelegate.swift */; };
 		6F9097F625F2B328002CB080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9097F525F2B328002CB080 /* SceneDelegate.swift */; };
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DF11AB725FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NinjaNaruto-YOn4.ttf"; sourceTree = "<group>"; };
 		6F0B998F25FD308F0073382F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		6F9097F025F2B328002CB080 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9097F325F2B328002CB080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DF11AB625FD679B00BFACA0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5DF11AB725FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		6F0B999725FD37520073382F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +137,7 @@
 		6F9097F225F2B328002CB080 /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				5DF11AB625FD679B00BFACA0 /* Font */,
 				6F9097F325F2B328002CB080 /* AppDelegate.swift */,
 				6F9097F525F2B328002CB080 /* SceneDelegate.swift */,
 				6F0B999725FD37520073382F /* Model */,
@@ -258,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF11AB825FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf in Resources */,
 				6F90980025F2B32B002CB080 /* LaunchScreen.storyboard in Resources */,
 				6F9097FD25F2B32B002CB080 /* Assets.xcassets in Resources */,
 				6F9097FB25F2B328002CB080 /* Main.storyboard in Resources */,
@@ -268,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF11AB925FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF11ABA25FD67B100BFACA0 /* NinjaNaruto-YOn4.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
