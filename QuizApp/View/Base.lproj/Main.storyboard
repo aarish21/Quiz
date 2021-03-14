@@ -7,11 +7,6 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="NinjaNaruto-YOn4.ttf">
-            <string>Ninja-Naruto</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -21,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wp4995791" translatesAutoresizingMaskIntoConstraints="NO" id="3xz-IV-mal">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0b62bf5658559ecb44b93c2dec1aadac" translatesAutoresizingMaskIntoConstraints="NO" id="3xz-IV-mal">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BPa-Y7-FKz">
@@ -29,8 +24,8 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="98d-l5-RUd">
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="194"/>
-                                        <fontDescription key="fontDescription" name="Ninja-Naruto" family="Ninja Naruto" pointSize="26"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="28"/>
+                                        <color key="textColor" red="0.045440387873178258" green="0.089211139482321178" blue="0.077693671692544652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q3v-Zd-xeT">
@@ -44,12 +39,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="VF0-Dy-W6L"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Ninja-Naruto" family="Ninja Naruto" pointSize="22"/>
-                                        <state key="normal" title="a" backgroundImage="Rectangle">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                        <state key="normal" title="a" backgroundImage="0bdd1a8397e692d431b196fde31d05ac">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mlP-nX-RJj"/>
+                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEa-YK-rQT"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB9-pZ-txg">
@@ -57,12 +52,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gj4-md-5qg"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Ninja-Naruto" family="Ninja Naruto" pointSize="22"/>
-                                        <state key="normal" title="b" backgroundImage="Rectangle">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                        <state key="normal" title="b" backgroundImage="0bdd1a8397e692d431b196fde31d05ac">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldY-Bm-N5Y"/>
+                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xhQ-s9-r2d"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smi-D1-ahF">
@@ -70,12 +65,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Ro6-5w-Ny7"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Ninja-Naruto" family="Ninja Naruto" pointSize="22"/>
-                                        <state key="normal" title="c" backgroundImage="Rectangle">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                        <state key="normal" title="c" backgroundImage="0bdd1a8397e692d431b196fde31d05ac">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JXy-hN-wkJ"/>
+                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIP-02-aTB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gt-5Q-LML">
@@ -83,12 +78,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="xUP-VL-gww"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Ninja-Naruto" family="Ninja Naruto" pointSize="22"/>
-                                        <state key="normal" title="d" backgroundImage="Rectangle">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                        <state key="normal" title="d" backgroundImage="0bdd1a8397e692d431b196fde31d05ac">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eJm-Vv-S9e"/>
+                                            <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYo-fv-cqs"/>
                                         </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IVj-8k-U0U">
@@ -118,13 +113,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="aButton" destination="DjY-cQ-jEU" id="Kce-wb-wYq"/>
-                        <outlet property="bButton" destination="bB9-pZ-txg" id="8Zx-4f-cgw"/>
-                        <outlet property="cButton" destination="smi-D1-ahF" id="Ef1-44-RuQ"/>
-                        <outlet property="dButton" destination="8gt-5Q-LML" id="gxS-j1-zUS"/>
                         <outlet property="progressBar" destination="IVj-8k-U0U" id="JfN-TL-8vl"/>
                         <outlet property="questionImage" destination="Q3v-Zd-xeT" id="VFY-Gs-U3o"/>
                         <outlet property="questionLable" destination="98d-l5-RUd" id="V86-Oj-oaj"/>
+                        <outletCollection property="options" destination="DjY-cQ-jEU" collectionClass="NSMutableArray" id="pO3-ar-W0e"/>
+                        <outletCollection property="options" destination="bB9-pZ-txg" collectionClass="NSMutableArray" id="7KU-Sg-cee"/>
+                        <outletCollection property="options" destination="smi-D1-ahF" collectionClass="NSMutableArray" id="iEQ-Ai-r1N"/>
+                        <outletCollection property="options" destination="8gt-5Q-LML" collectionClass="NSMutableArray" id="Xa6-wB-x6i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -133,8 +128,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Rectangle" width="322" height="68"/>
-        <image name="wp4995791" width="720" height="1280"/>
+        <image name="0b62bf5658559ecb44b93c2dec1aadac" width="564" height="564"/>
+        <image name="0bdd1a8397e692d431b196fde31d05ac" width="540" height="540"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
