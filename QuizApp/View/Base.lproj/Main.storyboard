@@ -34,7 +34,7 @@
                                             <constraint firstAttribute="height" constant="300" id="WGu-Bd-lH4"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjY-cQ-jEU">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjY-cQ-jEU">
                                         <rect key="frame" x="0.0" y="514" width="354" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="VF0-Dy-W6L"/>
@@ -47,7 +47,7 @@
                                             <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEa-YK-rQT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB9-pZ-txg">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB9-pZ-txg">
                                         <rect key="frame" x="0.0" y="574" width="354" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gj4-md-5qg"/>
@@ -60,7 +60,7 @@
                                             <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xhQ-s9-r2d"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smi-D1-ahF">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smi-D1-ahF">
                                         <rect key="frame" x="0.0" y="634" width="354" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Ro6-5w-Ny7"/>
@@ -73,14 +73,14 @@
                                             <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIP-02-aTB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gt-5Q-LML">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gt-5Q-LML">
                                         <rect key="frame" x="0.0" y="694" width="354" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="xUP-VL-gww"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
                                         <state key="normal" title="d" backgroundImage="0bdd1a8397e692d431b196fde31d05ac">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="ansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYo-fv-cqs"/>

@@ -50,11 +50,11 @@ class ViewController: UIViewController {
             }
             else {
                 sender.backgroundColor = UIColor.red
-                
+                print(sender.tag)
             }
             
         }
-        Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
         
         }
        
@@ -77,12 +77,13 @@ class ViewController: UIViewController {
             options[3].setTitle(ques[quesNumber][4], for: .normal)
             questionLable.text = ques[quesNumber][0]
             questionImage.image = quesimage[imgno]
-            
-            progressBar.progress = Float(quesNumber+1)/Float(ques.count)
+                        
+            progressBar.progress = Float(quesNumber)/Float(ques.count)
         }
         else{
             quesNumber=0
             imgno = 0
+            progressBar.progress = Float(quesNumber)/Float(ques.count)
         }
         
     }
