@@ -51,7 +51,10 @@ class ViewController: UIViewController {
             else {
                 sender.backgroundColor = UIColor.red
                 print(sender.tag)
+                
+                
             }
+            
             
         }
         Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
